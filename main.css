@@ -1,10 +1,25 @@
-  
+/*   
   ul{
     list-style-type: none;
     overflow: hidden;
     background-color: #333;
+  } */
+  .jumbotron
+  {
+    /* background-color: rgba(233,236,239, 0.00001) */
+    background-color: initial;
   }
-  
+
+  .navbarb{
+    text-align: center;
+    /* opacity: 0.001; */
+  }
+
+  /* #footer{
+    background-color: initial !important;
+    text-align: center;
+  } */
+
   li a{
     float: left;
     color: white;
@@ -12,9 +27,29 @@
     padding: 14px 16px;
   }
 
+  #carouselExampleFade{
+    max-width: 900px;
+    height: 550px;
+    overflow: hidden;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border-style: solid;
+    border-color: black;
+    border-width: 5px; */
+}
+
+  #subject{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .rdo1{
+    margin-top: 300px;
     text-align: center;
     font-size: 28px;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 
   body{
@@ -22,25 +57,29 @@
   }
 
 
-  header{
+  /* header{
     text-align: center;
     font-size: 36px;
     font-style: italic;
-  }
+  } */
 
-  h1{
+  /* h1{
       text-align: center;
       font-size: 24px;
       margin-top: 7%;
-  }
+  } */
 
-  .par{
+  /* .par{
       text-align: center;
       margin-top: 15%;
       font-size: 20px; 
+  } */
+
+  .container{
+    margin-top: 40px
   }
 
-  footer{
+  /* footer{
       background-color: black;
       color: white;
       position: fixed;
@@ -48,4 +87,4 @@
       width: 100%;
       bottom: 0;
       left: 0;
-  }
+  } */
